@@ -22,6 +22,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
     
 
 
@@ -33,10 +34,16 @@ nav{
     padding: 13px 15px;
     border-radius: 5px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight:500;
     color: white;
     
 }
+
+
+
+
+
+
 ul {
     display: flex;
     list-style-type: none;
@@ -52,4 +59,117 @@ ul a{
 .logo{ 
     height: 60;
     width: 139;
+    
+}
+.le{
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+img{
+    background-image: url(assets/hero-bg.png);
+
+}
+.uy{
+    display: flex;
+}
+
+.pu{
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 3px solid white;
+    border-radius: 5px;
+    height: 43px;
+
+}
+.v{
+    color: #FFFFFF;
+
+}
+.l{
+    font-size: 75px; 
+    font-weight: 700; 
+
+}
+.j{
+    color: #30B868;
+}
+.k{
+    font-size: 18px;
+    font-weight: 400;
+    color:#FFFFFF;
+    padding: 0 250px;
+    margin: 20px 0;
+
+
+}
+.bh{
+    padding: 8px 12px;
+    border-radius: 1000px;
+    font-weight: 500;
+    color: #276941;
+}
+.bh {
+    position: relative; 
+    padding: 8px 20px 8px 40px; 
+    border-radius: 1000px;
+    font-weight: 500;
+    color: #276941;
+    background-color: #E6F4EA; 
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+
+   
+    box-shadow: 0 4px 10px rgba(1, 8, 3, 0.15);
+}
+
+.bh::before {
+    content: ""; 
+    position: absolute;
+    left: 15px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 10px; 
+    height: 10px;
+    background-color: #30B868; 
+    border-radius: 50%; 
+}
+
+.img{
+    background-image: url(assets/hero-bg.png);
+    max-width: 1600px;
+    height: 620px;
+
+}
+.img-c{
+    padding:120px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+.no{
+    margin: auto 120px;
+    text-align: center;
+}
+.re{
+    font-size: 16px;
+    font-weight: 400;
+}
+.cl{
+    color:#627382;
+}
+.bo{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.vs{
+    
+}
+.fl{
+    display: flex;
 }
