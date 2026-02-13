@@ -87,8 +87,12 @@ img{
 }
 .v{
     color: #FFFFFF;
-
 }
+.hf{
+    background:#F95555;
+    border-radius: 50%;
+}
+
 .l{
     font-size: 75px; 
     font-weight: 700; 
